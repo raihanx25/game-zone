@@ -10,26 +10,48 @@
  
  nav{
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    background: #FFF;
+    padding: 0px 150px 0px 150px;
    
  }
+ nav ul li{
+   margin-right: 35px;
+ }
+ nav>div{
+   /* margin-right: 22px; */
+ }
  .nav-left{
-   /* justify-content: space-between; */
+   /* justify-content: center; */
    display: flex;
+   padding-top: 20px;
+   /* flex-direction: row; */
+   /* margin-right: 22px; */
 }
 .nav-title{
    font-size: 45px;
    font-weight: 700;
+   /* padding-left: 25px; */
+   
 }
  .nav-right{
    display: flex;
+   /* align-items: center; */
+   /* margin-right: 32px; */
 
  }
   
  
  .follow-us{
     display: flex;
-    /* justify-content: space-between; */
+    /* flex-direction: ; */
+    align-items: center;
+    /* text-align: center; */
+    /* justify-content: center; */
+    background: rgba(11, 2, 35, 0.10);
+    border-radius: 8px;
+    padding-left: 25px;
  }
 .icon{
    display: flex;
@@ -39,7 +61,9 @@
  
  .about-us {
     display: flex;
+    align-items: center;
     list-style: none;
+    margin-right: 32px;
    
  }
  .dev{
@@ -47,6 +71,8 @@
    /* justify-content: space-between; */
    text-decoration: none;
    font-size:18px;
+   font-weight: 500;
+   color: #3C354F;
  }
  li > a{
    text-decoration: none;
