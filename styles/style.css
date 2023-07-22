@@ -7,73 +7,274 @@
     font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
  }
+  .body-padding{
+    padding: 0px 240px 0px 240px;
+  }
+ .header-padding{
+  /* padding: 0px 240px 0px 240px; */
+   }
+
  
  nav{
     display: flex;
-    align-items: center;
     justify-content: space-between;
     background: #FFF;
-    padding: 0px 150px 0px 150px;
-   
- }
- nav ul li{
+    gap: 720px;
+   }
+   nav ul li{
    margin-right: 35px;
- }
- nav>div{
-   /* margin-right: 22px; */
- }
+   }
  .nav-left{
-   /* justify-content: center; */
    display: flex;
    padding-top: 20px;
-   /* flex-direction: row; */
-   /* margin-right: 22px; */
-}
+   gap: 20px;
+   }
 .nav-title{
    font-size: 45px;
    font-weight: 700;
-   /* padding-left: 25px; */
-   
 }
  .nav-right{
    display: flex;
-   /* align-items: center; */
-   /* margin-right: 32px; */
-
- }
+   background: #FFF;
+}
   
  
  .follow-us{
     display: flex;
-    /* flex-direction: ; */
     align-items: center;
-    /* text-align: center; */
-    /* justify-content: center; */
     background: rgba(11, 2, 35, 0.10);
     border-radius: 8px;
     padding-left: 25px;
  }
-.icon{
+
+ .icon{
    display: flex;
 }
  
- 
- 
- .about-us {
+  .about-us {
     display: flex;
     align-items: center;
     list-style: none;
     margin-right: 32px;
-   
- }
- .dev{
+   }
+ 
+   .dev{
    display: flex;
-   /* justify-content: space-between; */
    text-decoration: none;
    font-size:18px;
    font-weight: 500;
    color: #3C354F;
  }
+  
  li > a{
    text-decoration: none;
  }
+
+ .banner{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 375px;
+  }
+ .banner-content{
+  font-style: normal;
+  text-align: center;
+  background-image: url("/images/Group 14.png");
+  
+  }
+   
+   .banner-image{
+        
+  }
+  .banner-title-1{
+    font-size: 48px;
+    font-weight: 600;
+    color: #0B0223;
+}
+   .banner-title-2{
+    font-size: 95px;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 20%, #8758F1 100%);
+    background-clip: text ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .text-1{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .text-2{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  .text-3{
+    font-size: 20px;
+    font-weight: 500;
+  }
+
+  .play{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .download{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .group{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .button-banner{
+    gap: 80px;
+   }
+  
+   .btn-1{
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 40px;
+    gap: 10px;
+   }
+   .btn-2{
+      border-radius: 48px;
+      background: #4EC5F7;
+      font-size: 20px;
+      font-weight: 600;
+      padding: 21px 40px;
+      gap: 10px;
+   }
+
+   .banner{
+      
+     }
+    .banner-image{
+      
+     }
+    
+     .gamer{
+        display: flex;
+        justify-content: space-evenly ;
+        background: linear-gradient(98deg, rgba(255,66,165,0.03)0%, rgba(255,66,165,0.03)100% );
+
+    }
+    .gamer-image{
+
+    }
+    .gamer-content{
+         text-align: right;
+    }
+    .gamer-title{
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      background: linear-gradient(180deg,#F948B2 0%, #8758F1 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
+    }
+    .gamer-description{
+        font-size: 18px;
+        font-weight: 400;       
+    }
+    .gamer-button{
+      border-radius: 48px;
+      background: var(--linear, linear-gradient(98deg,#FF42A5 0%, #FF42A5 100% )) ;
+      padding: 21px 48px;
+      gap: 10px;
+      display:inline-flex;
+      align-items: flex-start;
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .purpose{
+      font-size: 24px;
+      font-weight: 500;
+    }
+    .gamer-end{
+        font-size: 32px;
+        font-weight: 700;
+    }
+    .funny-video{
+      text-align: center;
+    }
+    .funny-content{
+      padding-top:30px;
+    }
+    .funny-title{
+         font-size: 48px;
+         font-weight: 700;
+    }
+    .color-title{
+      background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .funny-text{
+         font-size: 18px;
+         font-weight: 400;
+         line-height: 30px;
+
+    }
+    .funny-image{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row;
+        gap: 30px;
+        padding-top:120px ;
+        text-align: left;
+    }
+  .watch-now{
+    position: relative;
+    width: 100%;
+  }
+   .watch-now img{
+    width: auto;
+    height: auto;
+   }
+   .watch-now .btn{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 16px;
+    
+    }
+   .watch-now .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-weight: 500;
+    color: #F948B2;
+   }
+  .btn{
+     background: none;
+      color: #FFF;
+     border: 0px;
+  }
+
+
+   /* smaller device */
+   @media screen and (max-width: 576px)
+   {
+    
+     display: grid;
+     grid-template-columns:200px 1fr 180px;
+   }
+     
+  
+    /* medium device */
+
+    @media screen and (min-width: 576px) and (max-width: 992px){
+
+    }
