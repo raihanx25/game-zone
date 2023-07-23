@@ -8,10 +8,10 @@
     font-family: 'Work Sans', sans-serif;
  }
   .body-padding{
-    padding: 0px 240px 0px 240px;
+    
   }
  .header-padding{
-  /* padding: 0px 240px 0px 240px; */
+      padding: 0px 240px 0px 240px;
    }
 
  
@@ -79,7 +79,7 @@
  .banner-content{
   font-style: normal;
   text-align: center;
-  background-image: url("/images/Group 14.png");
+  /* background-image: url("/images/Group 14.png"); */
   
   }
    
@@ -200,15 +200,19 @@
         font-size: 32px;
         font-weight: 700;
     }
+    /* online games funny videos section */
     .funny-video{
-      text-align: center;
+     
+      padding: 100px 240px 100px 240px;
+      
     }
     .funny-content{
-      padding-top:30px;
+     text-align: center;
     }
     .funny-title{
          font-size: 48px;
          font-weight: 700;
+         padding-top: 100px;;
     }
     .color-title{
       background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -224,15 +228,20 @@
     }
     .funny-image{
         display: flex;
-        justify-content: space-around;
-        flex-direction: row;
+        justify-content: space-evenly;
+        
         gap: 30px;
         padding-top:120px ;
         text-align: left;
+       
     }
+
+    
   .watch-now{
+    /* justify-content: space-evenly; */
     position: relative;
     width: 100%;
+    box-shadow: #3C354F;
   }
    .watch-now img{
     width: auto;
@@ -255,21 +264,251 @@
     -ms-transform: translate(-50%, -50%);
     font-size: 30px;
     font-weight: 500;
-    color: #F948B2;
+    color: deeppink;
    }
   .btn{
      background: none;
-      color: #FFF;
+     
      border: 0px;
   }
+
+/* horse rider section */
+
+
+  .horse-rider{
+   
+  }
+  .horse-angela{
+   display:flex;
+   justify-content: space-between;
+   padding: 100px 240px 150px 240px;
+  }
+   .angela-content{
+    display: block;
+    justify-content: center;
+    text-align: right;
+
+   }
+  .angela-title{
+   
+   font-size: 48px;
+   font-weight: 700;
+   line-height: 60px;
+  }
+  .play-instant{
+      background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+  }
+  .angela-text{
+   
+  }
+  .parent{
+    position: relative;
+    top: 0;
+    right: 0;
+    
+  } 
+  
+  .image-man{
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 635px;
+    height: 650px;
+     }
+  
+  .image-woman{
+    position: absolute;
+    top: 380px;
+    right: 380px;
+    
+    }
+
+
+    
+
+  /* play games online anywhere anytime section */
+
+  
+  .warior{
+    
+  }
+  .warior-lady{
+    display: flex;
+    justify-content: space-between;
+
+     padding: 100px 240px 10px 240px;
+  }
+
+  .parent-1{
+    position: relative;
+    top: 0;
+    left: 0;
+ 
+  }
+
+  .image-lady{
+    position: relative;
+    top: 0;
+    left: 0;
+  
+  }
+
+  .image-girl{
+     position: absolute;
+     top: 360px;
+     left: 470px;
+
+  }
+ 
+
+
+  .warior-content{
+
+  }
+  
+  .warior-title{
+    font-size:  48px;
+    font-weight: 700;
+    line-height: 60px;
+  }
+  
+  .games-online{
+     background: linear-gradient(180deg, #F948B2 0% #8758F1 100% );
+     background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .warior-text{
+     
+
+  }
+
+
+
+
+  /* careers section */
+
+  .last-banner{
+    display:flex;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+   }
+ 
+  .text{
+    color:#FFF;
+    
+  }
+  
+  .paragraoh{
+    text-align: left;
+   
+  }
+    .list>div ul li{
+      list-style: none;
+
+    }
+  .list{
+    display:flex;
+    justify-content: space-between;
+    text-align: left;
+  }
+  .list-left ul li{
+    display:block;
+ 
+    
+  }
+  .list-right ul li{
+    display: block;
+    
+  }
+  .btn-position{
+    border-radius: 48px;
+    background: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 21px 40px;
+    gap: 10px;
+    border:0px;
+
+
+    
+    
+  }
+  span{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+   background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+  }
+
+  /* roundphoto section */
+
+  .round-photo{
+   padding-top: 150px;
+    height 100px;
+  }
+
+  .a {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px 280px 0px 280px;
+    
+  }
+  .b{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0px 340px 0px 340px;
+  }
+
+
+/* end section or footer */
+
+
+
+  .end{
+    display: flex;
+    justify-content: center;
+    height: 150px;;
+  }
+  .img-controll{
+
+  }
+  .link-tab{
+    display: flex;
+    justify-content: center;
+  }
+  .social-icon{
+    display: flex;
+    justify-content: center;
+  }
+  .terms{
+    display: flex;
+    justify-content: center;
+  }
+  .last-text{
+    display: flex;
+    justify-content: center;
+  }
+
+
 
 
    /* smaller device */
    @media screen and (max-width: 576px)
-   {
+   { nav .banner .gamer .funny {
+    /* flex-direction: column; */
+
+   }
+   
+   
     
-     display: grid;
-     grid-template-columns:200px 1fr 180px;
+     
+     
    }
      
   
