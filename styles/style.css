@@ -149,25 +149,16 @@
       gap: 10px;
    }
 
-   .banner{
-      
-     }
-    .banner-image{
-      
-     }
-    
      .gamer{
         display: flex;
         justify-content: space-evenly ;
         background: linear-gradient(98deg, rgba(255,66,165,0.03)0%, rgba(255,66,165,0.03)100% );
-
-    }
-    .gamer-image{
-
-    }
+      }
+   
     .gamer-content{
          text-align: right;
     }
+    
     .gamer-title{
       font-size: 48px;
       font-style: normal;
@@ -200,12 +191,12 @@
         font-size: 32px;
         font-weight: 700;
     }
+   
     /* online games funny videos section */
+
     .funny-video{
-     
-      padding: 100px 240px 100px 240px;
-      
-    }
+         padding: 100px 240px 100px 240px;
+      }
     .funny-content{
      text-align: center;
     }
@@ -220,21 +211,19 @@
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
-    .funny-text{
-         font-size: 18px;
-         font-weight: 400;
-         line-height: 30px;
+  .funny-text{
+      font-size: 18px;
+      font-weight: 400;
+      line-height: 30px;
 
-    }
+  }
     .funny-image{
         display: flex;
         justify-content: space-evenly;
-        
         gap: 30px;
         padding-top:120px ;
         text-align: left;
-       
-    }
+       }
 
     
   .watch-now{
@@ -289,11 +278,11 @@
     text-align: right;
 
    }
-  .angela-title{
+   .angela-title{
    
-   font-size: 48px;
-   font-weight: 700;
-   line-height: 60px;
+       font-size: 48px;
+       font-weight: 700;
+       line-height: 60px;
   }
   .play-instant{
       background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -333,13 +322,14 @@
 
   
   .warior{
-    
+    display: flex;
+    justify-content: space-between;
   }
   .warior-lady{
     display: flex;
     justify-content: space-between;
-
-     padding: 100px 240px 10px 240px;
+    gap:  260px;
+    padding: 100px 240px 100px 240px;
   }
 
   .parent-1{
@@ -362,12 +352,7 @@
      left: 470px;
 
   }
- 
 
-
-  .warior-content{
-
-  }
   
   .warior-title{
     font-size:  48px;
@@ -381,13 +366,7 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
-  .warior-text{
-     
-
-  }
-
-
-
+  
 
   /* careers section */
 
@@ -396,13 +375,18 @@
     justify-content: space-between;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
    }
- 
-  .text{
+  
+   .banner-list{
+    flex-direction: column;
+     padding: 100px 0px 0px 100px;
+    }
+  
+    .text{
     color:#FFF;
     
-  }
+   }
   
-  .paragraoh{
+  .paragraph{
     text-align: left;
    
   }
@@ -412,17 +396,17 @@
     }
   .list{
     display:flex;
-    justify-content: space-between;
-    text-align: left;
+    justify-content:space-between;
+    align-items: left;
+    gap: 50px;
   }
   .list-left ul li{
     display:block;
- 
-    
-  }
+    text-align: left;
+    }
   .list-right ul li{
     display: block;
-    
+    text-align: right;
   }
   .btn-position{
     border-radius: 48px;
@@ -448,7 +432,7 @@
 
   .round-photo{
    padding-top: 150px;
-    height 100px;
+    height 250px;
   }
 
   .a {
@@ -473,7 +457,8 @@
   .end{
     display: flex;
     justify-content: center;
-    height: 150px;;
+    
+    
   }
   .img-controll{
 
