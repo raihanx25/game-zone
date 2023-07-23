@@ -484,17 +484,19 @@
 
 
    /* smaller device */
-   @media screen and (max-width: 576px)
-   { nav .banner .gamer .funny {
-    /* flex-direction: column; */
+   @media screen and (max-width: 576px){ 
+     
+         .header-padding{padding-right: 100px;}
+         .gamer{ gap 100px;}
 
-   }
+   
+  }
    
    
     
      
      
-   }
+   
      
   
     /* medium device */
